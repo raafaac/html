@@ -1,0 +1,51 @@
+      p {
+            color: #8B4513;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #F5DEB3;
+            text-align: center;
+        }
+        header h1 {
+            color: #ffffff;
+        }
+        header p {
+            color: #8B4513;
+        }
+        body {
+            background-color: #ead8c5;
+            margin: 0;
+        }
+        section {
+            background-color: #f1e0e0;
+            border-radius: 10px;
+            border: 2px solid #8B4513;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+        section h3 {
+            color: #8B4513;
+            font-family: 'Courier New', monospace;
+            font-size: 22px;
+        }
+        section p {
+            color: #8B4513;
+            font-family: Arial, sans-serif;
+            font-size: 22px;
+        }
+        main {
+            width: 400px;
+            margin: 0 auto;
+        }   
+        main h2 {
+            color: #8B4513;
+            font-family: 'Courier New', monospace;
+            text-align: center;
+        }
+        footer {
+            background-color: #F5DEB3;
+            text-align: center;
+            padding: 8px;
+            color: #8B4513;
+            font-family: Arial, sans-serif;
+        }
