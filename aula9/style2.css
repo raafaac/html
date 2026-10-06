@@ -1,0 +1,98 @@
+body {
+
+     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url("fundolana.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #61363a;
+}
+
+main {
+
+    max-width: 500px;
+
+    margin: 0 auto;
+
+    padding: 20px 16px;
+
+}
+
+h1 {
+
+    text-align: center;
+
+    color: #ffdadd;
+
+}
+
+.subtitulo {
+
+    text-align: center;
+   color: #ffdadd;
+    margin-bottom: 25px;
+
+}
+
+.card {
+
+    background-color: #fff;
+
+    border: 2px solid #c89b8c;
+
+    border-radius: 10px;
+
+    padding: 14px 16px;
+
+    margin-bottom: 12px;
+
+}
+
+#principal {
+
+    background-color: #7d3035;
+
+    color: #fff;
+
+    border: none;
+
+    text-align: center;
+
+}
+
+.destaque {
+
+    background-color: #ead0c8;
+
+    border-color: #7d3035;
+
+}
+
+#musicas {
+
+    background-color: #f8eee9;
+
+    border-color: #9e5a5e;
+
+}
+
+.esgotado {
+
+    opacity: 0.5;
+
+}
+
+.esgotado h4 {
+
+    text-decoration: line-through;
+
+}
+
+.botao {
+    display: block;
+    margin: 20px auto;
+    background-color: #f8eee9;
+    color: #9e5a5e;
+    border-radius: 40px;
+}

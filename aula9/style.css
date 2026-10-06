@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #fcede3;
+    color: #c54d4d;
+}
+
+main {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px 16px;
+}
+
+.card {
+    background-color: #fff;
+    border: 2px solid #d4a377;
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+}
+
+#promo-dia {
+    background-color: #c54d4d;
+    color: #fff;
+    border: none;
+    text-align: center;
+}
+
+.destaque {
+    background-color: #fde0d0;
+    border-color: #c54d4d;
+}
+
+.esgotado {
+ opacity: 0.5;
+}
+
+.esgotado h4 {
+    text-decoration: line-through;
+}
