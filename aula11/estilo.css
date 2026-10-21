@@ -1,0 +1,203 @@
+
+/* Lana Del Rey — Fan Experience */
+/* Paleta Paradise Pop + Cherry */
+
+/* Box Model */
+* {
+    box-sizing: border-box;
+}
+
+/* Página */
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #FFF2DB;
+    color: #10195C;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 24px;
+    line-height: 1.6;
+}
+
+/* Títulos */
+h1 {
+    color: #10195C;
+    background-color: #FFC6B8;
+    border-bottom: 6px solid #C1122F;
+    border-left: 8px solid #3157B7;
+    border-radius: 8px;
+    padding: 16px;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 0 rgba(16, 25, 92, 0.12);
+}
+
+h2 {
+    color: #3157B7;
+    border-bottom: 3px solid #C1122F;
+    padding-bottom: 6px;
+}
+
+.centro {
+    text-align: center;
+}
+
+/* Grupos do formulário */
+fieldset {
+    background-color: #FFFFFF;
+    border: 3px solid #3157B7;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 0 rgba(49, 87, 183, 0.12);
+}
+
+/* Títulos dos grupos */
+legend {
+    color: #FFFFFF;
+    background-color: #C1122F;
+    border: 2px solid #10195C;
+    border-radius: 6px;
+    font-weight: bold;
+    padding: 4px 10px;
+}
+
+/* Rótulos */
+label {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Campos de texto, data, número e listas */
+.campo {
+    display: block;
+    width: 100%;
+    padding: 11px;
+    margin-top: 5px;
+    border: 2px solid #ACC0D5;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+    color: #10195C;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    transition: border-color 0.3s ease,
+                box-shadow 0.3s ease,
+                background-color 0.3s ease;
+}
+
+/* Ao passar o mouse */
+.campo:hover {
+    border-color: #C1122F;
+}
+
+/* Ao selecionar um campo */
+.campo:focus {
+    border-color: #3157B7;
+    background-color: #FFF9F0;
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(193, 18, 47, 0.2);
+}
+
+/* Botões */
+button {
+    padding: 12px 22px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease,
+                color 0.3s ease,
+                border-color 0.3s ease,
+                transform 0.2s ease,
+                box-shadow 0.3s ease;
+}
+
+/* Botão de envio */
+.btn-enviar {
+    background-color: #C1122F;
+    border-color: #C1122F;
+    color: #FFFFFF;
+    box-shadow: 0 4px 0 #10195C;
+}
+
+.btn-enviar:hover {
+    background-color: #10195C;
+    border-color: #10195C;
+    color: #FFFFFF;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 0 #C1122F;
+}
+
+/* Botão de limpar */
+.btn-limpar {
+    background-color: #ACC0D5;
+    border-color: #ACC0D5;
+    color: #10195C;
+    box-shadow: 0 4px 0 #3157B7;
+}
+
+.btn-limpar:hover {
+    background-color: #FFC6B8;
+    border-color: #C1122F;
+    transform: translateY(-2px);
+}
+
+/* Foco dos botões pelo teclado */
+button:focus-visible {
+    outline: 3px solid #3157B7;
+    outline-offset: 4px;
+}
+
+/* Destaque da página de agradecimento */
+.destaque {
+    background-color: #FFFFFF;
+    border-left: 7px solid #C1122F;
+    border-top: 2px solid #FFC6B8;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 3px 0 rgba(16, 25, 92, 0.1);
+}
+
+/* Código destacado */
+code {
+    background-color: #FFC6B8;
+    color: #10195C;
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+/* Links */
+a {
+    color: #3157B7;
+    font-weight: bold;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #C1122F;
+}
+
+/* Seleção de texto */
+::selection {
+    background-color: #3157B7;
+    color: #FFFFFF;
+}
+
+/* Ajustes para telas pequenas */
+@media (max-width: 480px) {
+    body {
+        padding: 14px;
+    }
+
+    fieldset {
+        padding: 14px;
+    }
+
+    button {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+}
