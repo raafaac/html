@@ -11,22 +11,21 @@
 
     <h1>🍒Lana Del Rey</h1>
     <h2>Fan Experience</h2>
+
     <p>
         Um encontro fictício para fãs da Lana Del Rey!
         Preencha o formulário para participar.
     </p>
 
-   <form action="https://formsubmit.co/rafaela.c.pereira@edu.senai.br" method="post">
+    <form action="https://formsubmit.co/rafaela.c.pereira@edu.senai.br" method="POST">
 
-  <!-- Campos ocultos: configuram o FormSubmit e não aparecem na tela -->
-  <input type="hidden" name="_subject" value="Inscrição recebida — Lana Del Rey">
-  <input type="hidden" name="_template" value="table">
+        <!-- Configurações do FormSubmit -->
+        <input type="hidden" name="_subject"
+               value="Nova inscrição na Fan Experience">
 
-  <!-- ... o resto do formulário continua igual ... -->
+        <input type="hidden" name="_template" value="table">
 
-</form>
-        
-
+        <!-- Seus dados -->
         <fieldset>
             <legend>Seus dados</legend>
 
@@ -49,6 +48,7 @@
             </p>
         </fieldset>
 
+        <!-- Seu lado fã -->
         <fieldset>
             <legend>Seu lado fã</legend>
 
@@ -84,6 +84,7 @@
             </p>
         </fieldset>
 
+        <!-- Sobre o evento -->
         <fieldset>
             <legend>Sobre o evento</legend>
 
@@ -121,6 +122,7 @@
             </p>
         </fieldset>
 
+        <!-- Preferência de novidades -->
         <p>
             <input type="checkbox" id="novidades"
                    name="novidades" value="sim">
@@ -129,6 +131,7 @@
             </label>
         </p>
 
+        <!-- Botões -->
         <p>
             <button class="btn-enviar" type="submit">
                 Enviar inscrição
