@@ -1,0 +1,261 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beauty Diary | Get Ready With Me</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f3ed;
+      color: #493b35;
+    }
+
+    header {
+      background-color: #e8d8cc;
+      text-align: center;
+      padding: 55px 20px;
+    }
+
+    header p {
+      letter-spacing: 4px;
+      font-size: 12px;
+      margin-bottom: 15px;
+      color: #806b60;
+    }
+
+    header h1 {
+      font-family: Georgia, serif;
+      font-size: 42px;
+      letter-spacing: 3px;
+      margin-bottom: 15px;
+    }
+
+    header h2 {
+      font-size: 14px;
+      font-weight: normal;
+      letter-spacing: 2px;
+    }
+
+    nav {
+      background-color: #493b35;
+      padding: 18px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff8f2;
+      text-decoration: none;
+      margin: 0 18px;
+      font-size: 13px;
+      letter-spacing: 1px;
+    }
+
+    nav a:hover {
+      color: #d9b9a8;
+    }
+
+    .introducao {
+      text-align: center;
+      padding: 45px 20px;
+    }
+
+    .introducao h2 {
+      font-family: Georgia, serif;
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+
+    .introducao p {
+      color: #806b60;
+      line-height: 1.8;
+    }
+
+    .secao {
+      max-width: 950px;
+      margin: 35px auto;
+      padding: 35px;
+      background-color: #fffdfb;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .secao h2 {
+      font-family: Georgia, serif;
+      font-size: 27px;
+      margin-bottom: 15px;
+    }
+
+    .secao p {
+      color: #806b60;
+      margin-bottom: 22px;
+      line-height: 1.7;
+    }
+
+    video {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    audio {
+      width: 100%;
+      max-width: 450px;
+    }
+
+    iframe {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    object {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .destaque {
+      background-color: #e8d8cc;
+    }
+
+    footer {
+      background-color: #493b35;
+      color: #fff8f2;
+      text-align: center;
+      padding: 28px;
+      margin-top: 50px;
+      font-size: 13px;
+      letter-spacing: 1px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 29px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 8px;
+      }
+
+      .secao {
+        margin: 20px 12px;
+        padding: 25px 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <p>BEAUTY • MAKEUP • LIFESTYLE</p>
+    <h1>BEAUTY DIARY</h1>
+    <h2>GET READY WITH ME — YOUR DAILY BEAUTY INSPIRATION</h2>
+  </header>
+
+  <nav>
+    <a href="#inicio">INÍCIO</a>
+    <a href="#grwm">MY GRWM</a>
+    <a href="#musica">BEAUTY VIBES</a>
+    <a href="#youtube">INSPIRAÇÕES</a>
+    <a href="#guia">BEAUTY GUIDE</a>
+  </nav>
+
+  <section class="introducao" id="inicio">
+    <h2>Welcome to my beauty diary!</h2>
+    <p>
+      Um espaço dedicado à beleza, maquiagem e autocuidado.
+      Prepare-se comigo, descubra inspirações e aproveite
+      cada detalhe dessa experiência!
+    </p>
+  </section>
+
+  <!-- VÍDEO GRWM -->
+  <section class="secao" id="grwm">
+    <h2>01. Get Ready With Me</h2>
+    <p>
+      Veja esse video explicativo de uma rotina de beleza
+      e descubra cada etapa da preparação.
+    </p>
+
+    <video width="640" height="360" controls
+      poster="imagem/beauty.jpg" preload="metadata">
+
+      <source src="video/rotinamatinal.mp4" type="video/mp4">
+      <source src="video/rotinamatinal.mp4" type="video/mp4">
+
+      Seu navegador não suporta vídeo.
+
+      <a href="video/rotinamatinal.mp4">Assista ao vídeo</a>.
+    </video>
+  </section>
+
+  <!-- ÁUDIO -->
+  <section class="secao destaque" id="musica">
+    <h2>02. Beauty Vibes</h2>
+    <p>
+      Um audio para auxiliar sua maquiagem,
+      seu skincare e seus momentos de autocuidado.
+    </p>
+
+    <audio controls>
+      <source src="audio/audiorotina.m4a" type="audio/mp4">
+      <source src="audio/jingle.ogg" type="audio/ogg">
+
+      Seu navegador não suporta áudio.
+    </audio>
+  </section>
+
+  <!-- YOUTUBE -->
+  <section class="secao" id="youtube">
+    <h2>03. Beauty Inspiration</h2>
+    <p>
+      Descubra novas inspirações de maquiagem,
+      tendências e rotinas de beleza.
+    </p>
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/awzQaJloIl8"
+      title="Beauty Inspiration"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </section>
+
+  <!-- PDF -->
+  <section class="secao destaque" id="guia">
+    <h2>04. My Beauty Guide</h2>
+    <p>
+      Confira nosso guia especial de beleza com dicas,
+      inspirações e uma rotina de autocuidado.
+    </p>
+
+    <object
+      data="docs/beauty.pdf"
+      type="application/pdf"
+      width="640"
+      height="400">
+
+      Seu navegador não consegue exibir o PDF.
+
+      <a href="docs/beauty.pdf">Abra o Beauty Guide</a>.
+    </object>
+  </section>
+
+  <footer>
+    <p>SENAI TDS1 © 2026 — RAFAELA COSTA</p>
+  </footer>
+
+</body>
+</html>
+```
